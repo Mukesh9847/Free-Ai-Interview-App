@@ -1,8 +1,6 @@
 'use server'
 
 export async function transcribeAudio(formData: FormData): Promise<string> {
-
-    console.log("KEY CHECK:", process.env.GROQ_API_KEY) 
     
   const audio = formData.get('audio')
   if (!(audio instanceof File)) throw new Error('No audio file')

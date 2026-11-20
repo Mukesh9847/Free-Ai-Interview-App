@@ -7,9 +7,6 @@ export default function SignUpPage() {
   return (
     <Card className="w-full max-w-sm bg-background border-border shadow-xl">
       <CardHeader className="space-y-2 text-center pb-6">
-        <div className="flex justify-center mb-2">
-          <Image src="/Auth.jpg" alt="Logo" width={64} height={64} className="rounded-xl object-cover shadow-lg" />
-        </div>
         <CardTitle className="text-2xl font-bold tracking-tight">Create an account</CardTitle>
         <CardDescription>Enter your details to start interviewing</CardDescription>
       </CardHeader>
